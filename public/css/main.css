@@ -1,0 +1,40 @@
+body {
+	background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+	font-family: 'Kanit', sans-serif;
+}
+
+a, .nav-link {
+	color: white;
+	font-size: 25px;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+a:hover {
+	color: black;
+	border: 1px solid black;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.container-fluid {
+	justify-content: center !important;
+}
+
+.name {
+	margin-top: 1rem;
+}
+
+.name, .navbar-nav {
+	margin-left: 10rem;
+	margin-right: 20rem;
+}
+
+.spacer {
+	width: 3px;
+	height: 53px;
+	background-color: white;
+	margin: 0 1rem;
+}
