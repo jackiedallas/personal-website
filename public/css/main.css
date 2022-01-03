@@ -3,7 +3,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Kanit', sans-serif;
-	height: 100vh;
+}
+html, body {
+	height: 100%;
 }
 
 /*Navigation Bar Edits*/
