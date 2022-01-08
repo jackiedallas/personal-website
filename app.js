@@ -6,10 +6,10 @@ app.use(express.static("public"));
 
 app.get("/", function (req, res) {
 	res.sendFile(__dirname + "/main.html");
-})
+});
 
 
 
-app.listen(3000, function () {
+app.listen(4000, function () {
 	console.log("Server is running...");
-})
+});
