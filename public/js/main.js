@@ -1,1 +1,1 @@
-console.log($('#hello path'));l
+console.log($('#hello path'));
