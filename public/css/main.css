@@ -107,3 +107,22 @@ li {
 	color: black;
 }
 /*Main Content Edits End*/
+
+/*skills container*/
+.skew {
+	margin-top: 10rem;
+	background-color: black;
+	position: absolute;
+	height: 1000px;
+	color: white;
+	/*top: 190px;*/
+	left: 0;
+	right: 0;
+	transform: skewY(-4deg);
+
+}
+.unskew {
+	transform: skewY(4deg);
+	padding: 20px 4px 0 4px;
+	text-align: center;
+}
