@@ -163,6 +163,7 @@ li {
 	/*right: 0;*/
 	transform: skewY(-12deg);
 
+
 }
 .unskew {
 	transform: skewY(12deg);
@@ -185,4 +186,7 @@ li {
 	width: 7rem;
 	height: 2rem;
 	line-height: 1.6;
+}
+.skills-list-items {
+	margin: -8px 0;
 }
