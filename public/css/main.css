@@ -152,21 +152,22 @@ li {
 /*!*Main Content Edits End*!*/
 
 /*!*skills container*!*/
-/*.skew {*/
-/*	margin-top: 10rem;*/
-/*	background-color: #929AAB;*/
-/*	position: relative;*/
-/*	height: 1000px;*/
-/*	color: #F7F7F7;*/
-/*	!*top: 190px;*!*/
-/*	!*left: 0;*!*/
-/*	!*right: 0;*!*/
-/*	transform: skewY(-4deg);*/
+.skew {
+	margin-top: 6rem;
+	background-color: #929AAB;
+	/*position: relative;*/
+	height: 1000px;
+	color: #F7F7F7;
+	/*top: 190px;*/
+	/*left: 0;*/
+	/*right: 0;*/
+	transform: skewY(-12deg);
 
-/*}*/
-/*.unskew {*/
-/*	transform: skewY(4deg);*/
-/*	padding: 20px 4px 0 4px;*/
-/*	text-align: center;*/
-/*	color: #EEEEEE;*/
-/*}*/
+}
+.unskew {
+	transform: skewY(12deg);
+	text-align: center;
+	padding-top: 6rem;
+	/*text-align: center;*/
+	color: #EEEEEE;
+}
