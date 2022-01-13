@@ -155,18 +155,33 @@ li {
 .skew {
 	margin-top: 6rem;
 	background-color: #929AAB;
-	/*position: relative;*/
-	height: 1000px;
+	position: relative;
+	width: 100%;
+	height: 700px;
 	color: #F7F7F7;
 	/*top: 190px;*/
 	/*left: 0;*/
 	/*right: 0;*/
-	transform: skewY(-12deg);
+	/*transform: skewY(-12deg);*/
 
 
 }
+.skew:after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: inherit;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transform-origin: bottom left;
+	transform: skewY(-4deg);
+	z-index: -1;
+}
 .unskew {
-	transform: skewY(12deg);
+	/*transform: skewY(4deg);*/
 	text-align: center;
 	padding-top: 6rem;
 	/*text-align: center;*/
