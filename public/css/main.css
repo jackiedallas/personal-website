@@ -123,6 +123,17 @@ li {
 		left: 5rem;
 		top: -2rem;
 	}
+	.skills-list-items, .mil-ex-li {
+		font-size: 23px;
+		margin: 2rem 0!important;
+	}
+	.skills-header {
+		font-size: 37px!important;
+		width: 11rem!important;
+		height: 3rem!important;
+		line-height: 1.5!important;
+	}
+
 }
 
 .skew {
