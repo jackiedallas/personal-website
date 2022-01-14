@@ -106,6 +106,25 @@ li {
 		height: 500px!important;
 	}
 }
+@media screen and (min-width: 1024px) {
+	.skew, .skew-2 {
+		height: 60rem!important;
+	}
+	.body-container {
+		display: flex;
+	}
+	.about-container {
+		position: relative;
+		top: 15rem;
+		left: -5rem;
+	}
+	.pic-container {
+		position: relative;
+		left: 5rem;
+		top: -2rem;
+	}
+}
+
 .skew {
 	margin-top: 20rem;
 	background-color: #929AAB;
