@@ -34,69 +34,14 @@ html, body {
 
 /*!*Navigation Bar Edits End*!*/
 
-/*!*Main Content Edits*!*/
-/*!*@media screen and (min-width: 320px) and (max-width: 990px) {*!*/
-/*!*	.main-box {*!*/
-/*!*		display: flex;*!*/
-/*!*		flex-wrap: wrap;*!*/
-/*!*		height: 80rem;*!*/
-/*!*		!*margin: 2rem;*!*!*/
-/*!*	}*!*/
-/*!*	.main-box-info {*!*/
-/*!*		!*padding: 1rem;*!*!*/
-/*!*		!*font-size: smaller;*!*!*/
-/*!*		!*width: 320px;*!*!*/
-/*!*		!*text-align: center;*!*!*/
-/*!*		!*left: 50%;*!*!*/
-/*!*		!*width: 100%;*!*!*/
-/*!*		!*top: 3rem!important;*!*!*/
-/*!*		!*margin-left: auto;*!*!*/
-/*!*		!*margin-right: auto;*!*!*/
-/*!*		!*width: 800px!important;*!*!*/
-/*!*		!*text-align: center;*!*!*/
-/*!*		!*display: flex;*!*!*/
-/*!*		!*flex-direction: column;*!*!*/
-/*!*		!*align-items: center;*!*!*/
-/*!*		!*margin-right: 0!important;*!*!*/
-/*!*	}*!*/
-/*!*	.main-box-pic {*!*/
-/*!*		!*top: 5rem;*!*!*/
-/*!*		!*left: .5rem!important;*!*!*/
-/*!*		!*display: flex;*!*!*/
-/*!*		!*justify-content: center;*!*!*/
-/*!*		!*margin-left: 0 !important;*!*!*/
-/*!*	}*!*/
-/*!*	.main-box-4 {*!*/
-/*!*		!*width: 300px;*!*!*/
-/*!*	}*!*/
-/*!*	.headshot {*!*/
-/*!*		width: 26rem!important;*!*/
-/*!*		height: 33rem!important;*!*/
-/*!*	}*!*/
 
-/*!*}*!*/
-/*.main-container {*/
-/*	margin-top: 10rem;*/
-/*}*/
-/*.main-box {*/
-/*	!*display: flex;*!*/
-/*	height: 60rem;*/
-/*}*/
 .headshot {
 	width: 100%;
 	max-width: 500px;
 	height: auto;
 	border-radius: 26px;
 }
-/*.main-box-pic {*/
-/*	position: relative;*/
-/*	display: block;*/
-/*	left: 47rem;*/
-/*	!*height: 60rem;*!*/
-/*	!*margin-top: 15rem;*!*/
-/*	!*margin-left: 12rem;*!*/
 
-/*}*/
 .main-box-info {
 	/*width: 100%;*/
 	max-width: 400px;
@@ -166,7 +111,7 @@ li {
 	background-color: #929AAB;
 	position: relative;
 	width: 100%;
-	height: 70rem;
+	height: 36rem;
 	color: #F7F7F7;
 }
 .skew-2 {
@@ -174,7 +119,7 @@ li {
 	color: black;
 	position: relative;
 	width: 100%;
-	height: 70rem;
+	height: 36rem;
 	/*margin-top: 20rem;*/
 
 }
@@ -237,4 +182,12 @@ li {
 }
 .skills-list-items {
 	margin: -8px 0;
+}
+.mil-ex-ul {
+	padding-left: 0;
+	list-style: square inside;
+}
+
+.mil-ex-li {
+	/*padding-left: 1px;*/
 }
