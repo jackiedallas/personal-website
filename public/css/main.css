@@ -221,3 +221,12 @@ li {
 .mil-ex-li {
 	/*padding-left: 1px;*/
 }
+
+.fade-in {
+	opacity: 0!important;
+	transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+	opacity: 1;
+}

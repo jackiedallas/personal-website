@@ -1,1 +1,4 @@
-console.log($('#hello path'));
+$(document).ready(function () {
+
+})
+
