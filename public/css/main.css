@@ -107,10 +107,6 @@ li {
 
 /*!*skills container*!*/
 @media screen and (max-width: 425px) {
-	.soft-skills, .tech-skills {
-		opacity: 1!important;
-		transform: none!important;
-	}
 	.skew {
 		margin-top: 5rem!important;
 		height: 500px!important;
@@ -120,6 +116,26 @@ li {
 	}
 }
 @media screen and (min-width: 1024px) {
+	.tech-skills {
+		opacity: 0!important;
+		transition: 150ms;
+		transform: translateX(-100px);
+	}
+	.soft-skills {
+		opacity: 0!important;
+		transition: 150ms;
+		transform: translateX(100px);
+	}
+
+	.tech-skills.show-tech {
+		opacity: 1!important;
+		transform: translateX(0);
+	}
+
+	.soft-skills.show-soft {
+		opacity: 1!important;
+		transform: translateX(0);
+	}
 	.skew, .skew-2 {
 		height: 50rem!important;
 	}
@@ -235,26 +251,7 @@ li {
 	/*padding-left: 1px;*/
 }
 
-.tech-skills {
-	opacity: 0!important;
-	transition: 150ms;
-	transform: translateX(-100px);
-}
-.soft-skills {
-	opacity: 0!important;
-	transition: 150ms;
-	transform: translateX(100px);
-}
 
-.tech-skills.show-tech {
-	opacity: 1!important;
-	transform: translateX(0);
-}
-
-.soft-skills.show-soft {
-	opacity: 1!important;
-	transform: translateX(0);
-}
 
 footer {
 	background-color: #dfdee6;
