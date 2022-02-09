@@ -223,12 +223,13 @@ li {
 }
 
 .tech-skills {
-	opacity: 0!important;
+	opacity: 0;
+	transition: 150ms;
+	transform: translateX(-100px);
 }
 
 .tech-skills.show {
-	opacity: 1;
-	/*transform: translateX(10);*/
-	transition: opacity 250ms ease-in;
-
+	opacity: 1!important;
+	transform: translateX(0);
+	/*transition: opacity 250ms ease-in;*/
 }
