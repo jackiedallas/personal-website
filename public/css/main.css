@@ -222,11 +222,13 @@ li {
 	/*padding-left: 1px;*/
 }
 
-.fade-in {
+.tech-skills {
 	opacity: 0!important;
-	transition: opacity 250ms ease-in;
 }
 
-.fade-in.appear {
+.tech-skills.show {
 	opacity: 1;
+	/*transform: translateX(10);*/
+	transition: opacity 250ms ease-in;
+
 }
