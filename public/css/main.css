@@ -14,11 +14,19 @@ body {
 }
 html, body {
 	height: 100%;
+	margin: 0;
+}
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+.push {
+	height: 85px;
 }
 
 /*!*Navigation Bar Edits*!*/
 .navbar {
-	background-color: #F7F7F7;
+	background-color: #3f9485;
 }
 .nav-link {
 	font-size: 20px;
@@ -30,6 +38,7 @@ html, body {
 
 .nav-link:hover {
 	color: black;
+	transform: scale(1.1);
 }
 
 /*!*Navigation Bar Edits End*!*/
@@ -98,6 +107,10 @@ li {
 
 /*!*skills container*!*/
 @media screen and (max-width: 425px) {
+	.soft-skills, .tech-skills {
+		opacity: 1!important;
+		transform: none!important;
+	}
 	.skew {
 		margin-top: 5rem!important;
 		height: 500px!important;
@@ -108,7 +121,7 @@ li {
 }
 @media screen and (min-width: 1024px) {
 	.skew, .skew-2 {
-		height: 60rem!important;
+		height: 50rem!important;
 	}
 	.body-container {
 		display: flex;
@@ -223,13 +236,28 @@ li {
 }
 
 .tech-skills {
-	opacity: 0;
+	opacity: 0!important;
 	transition: 150ms;
 	transform: translateX(-100px);
 }
+.soft-skills {
+	opacity: 0!important;
+	transition: 150ms;
+	transform: translateX(100px);
+}
 
-.tech-skills.show {
+.tech-skills.show-tech {
 	opacity: 1!important;
 	transform: translateX(0);
-	/*transition: opacity 250ms ease-in;*/
 }
+
+.soft-skills.show-soft {
+	opacity: 1!important;
+	transform: translateX(0);
+}
+
+footer {
+	background-color: #dfdee6;
+	height: 150px;
+}
+
