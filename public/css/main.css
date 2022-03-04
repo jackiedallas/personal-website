@@ -109,10 +109,16 @@ li {
 @media screen and (max-width: 425px) {
 	.skew {
 		margin-top: 5rem!important;
-		height: 500px!important;
+		height: 380px!important;
 	}
 	.skew-2 {
-		height: 500px!important;
+		height: 350px!important;
+	}
+	.unskew {
+		padding-top: 1.5rem!important;
+	}
+	.unskew-2 {
+		padding-top: 3rem!important;
 	}
 }
 @media screen and (min-width: 1024px) {
